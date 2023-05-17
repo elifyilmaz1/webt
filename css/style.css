@@ -27,7 +27,7 @@ background: rgba(22,112,214);
 .navbar ul li a{
     color:white;
     text-decoration: none;
-    font size: 20px;
+    font-size: 20px;
     padding: 6px 13px;
     font-family:Roboto;
 }
