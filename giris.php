@@ -1,5 +1,5 @@
 <?php
-$kullaniciadi=$_POST["emailadres"];
+$kullanıcıadi=$_POST["emailadres"];
 $sifre=$_POST["sifre"];
 $kullaniciadim="b221210031@gmail.com";
 $sifrem="b221210031";
@@ -9,5 +9,5 @@ if($kullaniciadi==$kullaniciadim && $sifre==$sifrem){
 }
 else{
     echo("Hatalı giriş yaptınız. Giriş ekranına yönlendiriliyorsunuz.");
-    header("url=giris.html")
+    header("url=giris.html");
 }
